@@ -16,7 +16,7 @@ const NavRoutes = () => {
       <Route path='/cart' element={<Cart />} />
       <Route path='/login' element={<Login />} />
       <Route path='/productlist' element={<ProductList />} />
-      <Route path='/singleproduct' element={<SingleProduct />} />
+      <Route path='/singleproduct/:id' element={<SingleProduct />} />
       <Route path='/wishlist' element={<Wishlist />} />
     </Routes>
   );
